@@ -1,0 +1,56 @@
+[
+  
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "ReactJS",
+    "imageSrc": "skills/reactjs.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/nodejs.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/expressjs.png"
+  },
+  
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "SQLite",
+    "imageSrc": "skills/sqlite.png"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  }
+]

@@ -1,0 +1,35 @@
+[
+    {
+    "title": "Email Validator Web Application",
+    "imageSrc": "projects/email-validator.png",
+    "description": "Built a responsive web app to validate email input in real time. Utilized JavaScript regex for dynamic input validation. Designed a clean, mobile-friendly user interface using HTML and CSS.",
+    "skills": ["HTML", "CSS", "JavaScript", "VS Code", "Web Browser"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Hotel Management System",
+    "imageSrc": "projects/hotel-management.png",
+    "description": "Developed a full-stack Hotel Management System using Streamlit and SQLite. Implemented user authentication and managed hotels, rooms, guests, reservations, and staff operations. Designed a role-based UI for streamlined staff operations. Secured authentication using password hashing and input validation. Maintained a relational database structure with foreign key constraints.",
+    "skills": ["Python", "Streamlit", "SQLite", "VS Code", "Web Browser"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  
+  {
+    "title": "Password Manager Web App",
+    "imageSrc": "projects/password-manager.png",
+    "description": "Created a secure password manager with full-stack technologies. Integrated user authentication and implemented password encryption. Developed a responsive and accessible UI using ReactJS. Followed RESTful API best practices to ensure scalable backend services.",
+    "skills": ["ReactJS", "Node.js", "Express.js", "MongoDB", "CSS", "VS Code", "Web Browser"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Designed and built a personal portfolio to showcase projects, skills, and experience. Created a fully responsive UI using ReactJS and CSS modules. Deployed the application and followed component-based design patterns.",
+    "skills": ["ReactJS", "HTML", "CSS", "VS Code", "Web Browser"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
