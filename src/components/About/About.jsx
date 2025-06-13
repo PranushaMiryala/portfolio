@@ -15,8 +15,9 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               
               <p>
-                I'm a dedicated full-stack developer with experience in building modern, end-to-end applications using technologies like React, Node.js, Express.js, and MongoDB, as well as full-stack Java with Spring Boot. I also create data-driven tools and dashboards using Python and Streamlit, supported by secure databases like SQLite. With a strong foundation in frontend design, backend architecture, and database management, I enjoy solving complex problems with clean, scalable solutions. My approach combines technical precision, adaptability, and a passion for continuous learning to deliver impactful and reliable software.
-              </p>
+               A detail-oriented and growth-driven individual stepping into the world of software development. I enjoy exploring how things work and turning ideas into meaningful outcomes. With a mindset focused on learning and improvement, I’m ready to take on new challenges, contribute to team efforts, and develop solutions that make a difference.
+I value clarity in communication and take pride in being dependable and open to feedback. Each step I take is aimed at becoming a better version of myself both professionally and personally.
+</p>
             </div>
           </li>
           
