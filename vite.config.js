@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/portfolio/', // ✅ Your actual GitHub repo name
   plugins: [react()],
-  css:{
-    modules:{
+  css: {
+    modules: {
       localsConvention: "camelCase",
     }
   }

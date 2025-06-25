@@ -9,7 +9,7 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -23,17 +23,17 @@
 }
 
 .skills {
-  width: 45%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 50px;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 60px;
 }
 
 .skillImageContainer {
@@ -42,18 +42,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 200x;
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 50px;
   font-family: var(--font-roboto);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .history {

@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 700px;
 }
 
 .image {
@@ -15,13 +15,13 @@
 }
 
 .title {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 60px;
   font-weight: 400;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);

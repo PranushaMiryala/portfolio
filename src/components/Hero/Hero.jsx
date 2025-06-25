@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
@@ -20,7 +19,7 @@ export const Hero = () => {
       </div>
 
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={`${import.meta.env.BASE_URL}hero/heroImage.png`}
         alt="Hero image of me"
         className={styles.heroImg}
       />
