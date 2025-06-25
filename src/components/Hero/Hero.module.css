@@ -4,10 +4,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start; /* Align content to the left */
+  gap: 3rem; /* Space between text and image */
   max-width: 1200px;
-  margin: 3rem auto; /* center it horizontally */
-  padding: 0 2rem; /* responsive side padding */
+  margin-left: 2rem;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 0 2rem;
   z-index: 1;
 }
 
@@ -105,6 +108,9 @@
     flex-direction: column-reverse;
     text-align: center;
     padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
   }
 
   .content {
