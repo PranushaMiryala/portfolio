@@ -5,10 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  max-width: 1200px;
+  margin: 3rem auto; /* center it horizontally */
+  padding: 0 2rem; /* responsive side padding */
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .content {
@@ -17,12 +17,13 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  flex: 1;
 }
 
 .title {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 2rem;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -34,9 +35,10 @@
 }
 
 .description {
-  font-size: 67px;
+  font-size: 2.25rem;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  margin-bottom: 2.5rem;
+  line-height: 1.4;
 }
 
 .contactBtn {
@@ -44,16 +46,15 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 50px;
+  font-size: 1.25rem;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
 .heroImg {
-  width: 25%;
+  width: 28%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -68,16 +69,16 @@
     transform: translate(0, 10px);
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translate(0, 0px);
   }
 }
 
 .topBlur {
   position: absolute;
-  width: 40vw;         /* reduce width */
-  height: 40vw;        /* reduce height */
-  min-width: 250px;    /* optional - reduce min size */
-  top: -150px;         /* push it higher */
+  width: 40vw;
+  height: 40vw;
+  min-width: 250px;
+  top: -150px;
   left: -10vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0);
@@ -85,14 +86,12 @@
   z-index: 0;
 }
 
-
 .bottomBlur {
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
-  top: 246px;
+  top: 15rem;
   right: -25vw;
   border-radius: 764px;
   background: rgba(25, 55, 50, 0.3);
@@ -100,12 +99,33 @@
   z-index: 0;
 }
 
+/* ---------- Responsive ---------- */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    text-align: center;
+    padding: 0 1rem;
   }
 
   .content {
     align-items: center;
+  }
+
+  .title {
+    font-size: 2.75rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .contactBtn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .heroImg {
+    width: 60%;
+    margin-bottom: 2rem;
   }
 }
