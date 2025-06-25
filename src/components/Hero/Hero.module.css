@@ -4,13 +4,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align content to the left */
-  gap: 3rem; /* Space between text and image */
-  max-width: 1200px;
-  margin-left: 2rem;
-  margin-right: auto;
+  justify-content: space-between;
   margin-top: 3rem;
-  padding: 0 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
   z-index: 1;
 }
 
@@ -20,11 +17,10 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
-  flex: 1;
 }
 
 .title {
-  font-size: 4.5rem;
+  font-size: 4.5rem; /* 72px */
   font-weight: 900;
   margin-bottom: 2rem;
   font-family: var(--font-roboto);
@@ -38,9 +34,9 @@
 }
 
 .description {
-  font-size: 2.25rem;
+  font-size: 1.875rem; /* 30px */
   font-family: var(--font-roboto);
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.25rem;
   line-height: 1.4;
 }
 
@@ -49,14 +45,14 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 1.25rem;
+  font-size: 1.875rem; /* 30px */
   font-weight: 600;
-  padding: 1rem 2rem;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem 1.625rem;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .heroImg {
-  width: 28%;
+  width: 50%;
   z-index: 1;
   animation-name: floating;
   animation-duration: 3s;
@@ -78,14 +74,14 @@
 
 .topBlur {
   position: absolute;
-  width: 40vw;
-  height: 40vw;
-  min-width: 250px;
-  top: -150px;
+  width: 50vw;
+  height: 50vw;
+  min-width: 22rem;
+  top: -8rem;
   left: -10vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0);
-  filter: blur(0);
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
   z-index: 0;
 }
 
@@ -93,24 +89,19 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 250px;
+  min-width: 22rem;
   top: 15rem;
   right: -25vw;
   border-radius: 764px;
-  background: rgba(25, 55, 50, 0.3);
-  filter: blur(1000px);
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
   z-index: 0;
 }
 
-/* ---------- Responsive ---------- */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
     text-align: center;
-    padding: 0 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 2rem;
   }
 
   .content {
@@ -118,7 +109,7 @@
   }
 
   .title {
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
 
   .description {
@@ -126,12 +117,12 @@
   }
 
   .contactBtn {
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
   }
 
   .heroImg {
-    width: 60%;
+    width: 65%;
     margin-bottom: 2rem;
   }
 }
